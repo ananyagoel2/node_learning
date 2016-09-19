@@ -1,0 +1,15 @@
+{
+  "name": "node-blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bookshelf": "^0.10.1",
+    "knex": "^0.12.1",
+    "lodash": "^4.16.0",
+    "pg": "^6.1.0",
+    "when": "^3.7.7"
+  }
+}
