@@ -19,6 +19,11 @@ var knex=require('knex')({
 });
 
 
+var Bookshelf = require('bookshelf')(knex);
+var express = require('express');
+var app = express();
+var bodyParser = require('body-parser');
+var _ = require('lodash');
 
 
 // User model
