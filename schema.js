@@ -3,9 +3,9 @@ var Schema ={
 		id : {type: 'increments',nullable:false,primary:true },
 		email : {type:'string',nullable:false,maxlength:254,unique:true},
 		name: {type: 'string', maxlength: 150, nullable: false},
-		mobile:{type:'integer',nullable:false,unique:true},
+		mobile:{type:'string',maxlength:100,nullable:false,unique:true},
 		created_at: {type: 'dateTime', nullable: false},
-		updated_at: {type: 'dateTime', nullable: true}		
+		updated_at: {type: 'dateTime', nullable: true}
 		},
 	posts: {
 		id: {type: 'increments', nullable: false, primary: true},
